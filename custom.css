@@ -1,0 +1,109 @@
+.btn-folio-dark{
+    background-color: #232340!important;
+    color: #fff;
+    width: 11.25em;
+    height: 4em;
+    border-radius: 8px;
+}
+.btn-folio-purple{
+    background-color: #5468E7;
+    color: #fff;
+    width: 11.25em;
+    height: 4em;
+    border-radius: 8px;
+}
+.intro-text-landing{
+    width: 22em;
+    line-height: 2;
+}
+.left-section{
+    z-index: 100;
+}
+.right-section{
+    background-image: url('assets/land.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.line-1{
+    top: 0;
+    position: absolute;
+    left: 27rem;
+}
+
+#about-section{
+    background-color: #232340;
+}
+
+.text-about{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #fff;
+}
+
+.box-about-text2{
+    width: 40em;
+}
+.text2-about{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 72px;
+/* or 112% */
+
+letter-spacing: -0.5px;
+
+/* color/white */
+
+color: #FFFFFF;
+}
+.list-about-section{
+    background-color: #232340;
+    color: #fff;
+    border: none!important;
+    
+}
+
+.triger{
+    font-size: 2rem; font-weight:bold; margin-right: 1rem
+}
+
+.list-about-section:hover .line-anim{
+    width: 200px;
+    background-color: #fff;
+    transition: 2s;
+    
+}
+
+.line-anim{
+  width: 0.1px;
+  height: 2px;
+  background-color: #232340;
+  transition: 2s;
+  position: absolute;
+    top: 2.9rem;
+    left: 6rem;
+}
+
+
+
+.show-line{
+    background-image: url('assets/point\ line.png');
+    /* width: 1px; */
+    visibility: visible;
+    transition: width 2s;
+    background-repeat: no-repeat;
+    
+}
+.triger:hover .show-line{
+    background-image: url('assets/point\ line.png');
+    transition: 10ms;
+    visibility: visible;
+    background-repeat: no-repeat;
+    /* width: 300px; */
+}
